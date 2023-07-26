@@ -6,6 +6,15 @@ public class DataClass {
     private String dataEmail;
     private String dataPhone;
     private String dataImage;
+    private String key;
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
 
     public String getDataName() {
         return dataName;
